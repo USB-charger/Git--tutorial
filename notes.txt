@@ -1,0 +1,22 @@
+1. getting started:
+ -configure your name:git config --global user.name "Caleb Aniagyei"
+ - configure your email address:git config --global user.email caniagyei2023@gmail.com
+ - configure your branch name:git config --global init.default branch main
+for more detailed information on the commands, type: git help config in the git bash terminal
+when you track a file, git takes track of the changes that are made to it. to track  a file,
+type: git add + the name of the file 
+to untrack a file:"git rm --cached <file>"
+ #sometimes you may want git to ignore certain files in the directory.
+in order to do this:
+ -create a new file and save it with the extension: "gitignore"
+ - from there, you can select the files which you want git to ignore
+ - for instance, if you want git to ignore all text files, you type ".txt" which means that
+ - for different ways of ignoring files, folders and extensions, visit the website:https:// github.com/github/gitignore
+
+###to track all files type: git add --all/ git add ./ git add -A
+
+git init is a command that sets up git in a folder/directory and tracks the folder for changes
+ git status: tells what changes have been made since the previous version 
+
+  git commit -m ""  --> the -m means message and you enter some text between the quotes to describe the 
+  kind of changes that was made to the current version
