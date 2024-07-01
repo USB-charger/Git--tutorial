@@ -19,4 +19,4 @@ git init is a command that sets up git in a folder/directory and tracks the fold
  git status: tells what changes have been made since the previous version 
 
   git commit -m ""  --> the -m means message and you enter some text between the quotes to describe the 
-  kind of changes that was made to the current version
+  kind of changes that was made to the current version,
