@@ -20,3 +20,16 @@ git init is a command that sets up git in a folder/directory and tracks the fold
 
   git commit -m ""  --> the -m means message and you enter some text between the quotes to describe the 
   kind of changes that was made to the current version
+
+## link your local repository to your remote repository: git remote add +(what you want to name the repository local repository,we usually call
+it origin by convention) 
++ url of repository
+
+## git remote --> list of remote repositories that have been added to local repository.
+
+## git remote -v ---> give more details on the remote repositories that have been added to the local repository
+    -v for verbose which means givre more details
+## before you are able to upload or download from github you need to run the ff command: git config --global credential.username
+"your_username" in order to configure your username to let github  know that you are the one doing the pulling or pushing(upload or download).
+
+##Once you are done, you can type the command git push +name of the local repository(origin) master(branch name)
