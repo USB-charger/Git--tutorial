@@ -32,4 +32,4 @@ it origin by convention)
 ## before you are able to upload or download from github you need to run the ff command: git config --global credential.username
 "your_username" in order to configure your username to let github  know that you are the one doing the pulling or pushing(upload or download).
 
-##Once you are done, you can type the command git push +name of the local repository(origin) master(branch name)
+##Once you are done, you can type the command:< git push +name of the local repository(origin) master(branch name)>
